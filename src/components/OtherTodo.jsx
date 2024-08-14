@@ -11,6 +11,7 @@ const OtherTodo = (props) => {
             <Row className="my-2 g-2 border border-info p-1">
                 <Col xs={12} sm={8} className='my-1'>
                     <Form.Control
+                        name='todoContent'
                         aria-label="Todo content"
                         aria-describedby="basic-addon1"
                         value={props.todoText}
@@ -22,6 +23,7 @@ const OtherTodo = (props) => {
                 <Col xs={12} sm={4} className='my-1'>
                     <Form.Control
                         type="date"
+                        name='todoDate'
                         aria-label="Todo date"
                         aria-describedby="basic-addon2"
                         value={props.todoDate}

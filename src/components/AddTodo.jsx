@@ -48,6 +48,8 @@ function AddTodo(props) {
                 <Form.Control
                     placeholder='Write Todo here...'
                     type="text"
+                    id='todoText'
+                    name='todoText'
                     aria-label="Todo here"
                     aria-describedby="basic-addon1"
                     value={todoText}
@@ -56,6 +58,7 @@ function AddTodo(props) {
                 />
                 <Form.Control
                     id='date'
+                    name='date'
                     type="date"
                     value={todoDate}
                     aria-label="Todo date"
