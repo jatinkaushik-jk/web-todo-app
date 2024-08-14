@@ -18,8 +18,8 @@ A highly responsive todo application built with React, Bootstrap, and React Rout
 
 ## Screenshots
 
-    ![preview01](./src/assets/preview01.png)
-    ![preview02](./src/assets/preview02.png)
+![preview01](/src/assets/preview01.png)
+![preview02](/src/assets/preview02.png)
 
 ## Installation
 
